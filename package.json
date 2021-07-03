@@ -1,0 +1,68 @@
+{
+  "name": "camiotalk",
+  "version": "1.0.0",
+  "description": "Rest API using nodeJs, mongoDB.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "dev": "NODE_ENV=development nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "NA"
+  ],
+  "author": "4Bits",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv-safe": "^6.1.0",
+    "express": "^4.17.1",
+    "express-expeditious": "^5.1.0",
+    "helmet": "^3.22.0",
+    "joi-objectid": "^3.0.1",
+    "mongoose": "^5.6.6",
+    "morgan": "^1.9.1",
+    "multer": "^1.4.2",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.1.2",
+    "trim-request": "^1.0.6",
+    "winston": "^3.3.3",
+    "winston-daily-rotate-file": "^4.5.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-formidable": "^4.0.0",
+    "eslint-config-node": "^4.0.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.19.0",
+    "eslint-plugin-react-hooks": "^2.5.0",
+    "express-routes-catalogue": "^1.1.0",
+    "faker": "^4.1.0",
+    "husky": "^3.0.1",
+    "mocha": "^6.2.0",
+    "mongo-seeding": "^3.2.0",
+    "nodemon": "^1.19.1",
+    "nyc": "^14.1.1",
+    "prettier-eslint": "^9.0.0",
+    "sentencer": "^0.2.0",
+    "random-fullName": "^1.0.0",
+    "node": "^13.12.0",
+    "npm": "^6.14.4",
+    "prettier": "^2.0.4"
+  }
+}
