@@ -13,4 +13,4 @@ COPY . /usr/src/app
 EXPOSE 7500
 #command to run within the container
 # CMD ['node', 'app.js']
-CMD [ “npm”, “start” ]
+CMD [ 'npm', 'start' ]
