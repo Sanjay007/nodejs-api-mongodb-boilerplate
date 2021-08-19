@@ -13,4 +13,6 @@ COPY . /usr/src/app
 EXPOSE 7500
 #command to run within the container
 # CMD ['node', 'app.js']
+RUN npm install -g nodemon
+
 CMD [ 'npm', 'start' ]
