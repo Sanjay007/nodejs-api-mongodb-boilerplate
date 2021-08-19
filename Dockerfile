@@ -15,4 +15,4 @@ EXPOSE 7500
 # CMD ['node', 'app.js']
 RUN npm install -g nodemon
 
-CMD [ 'npm', 'start' ]
+CMD [ 'node', 'server.js' ]
